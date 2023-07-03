@@ -6,3 +6,9 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+@store3 = Store.third
+puts "👉👉👉 @store3: #{@store3.name}"
+
+@store3.destroy
+
+puts "# of stores: #{Store.count}"
